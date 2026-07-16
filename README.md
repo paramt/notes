@@ -9,9 +9,7 @@ This repo [(paramt/notes)](https://github.com/paramt/notes) is the Obsidian vaul
 [This note](https://www.param.me/notes/README/) is itself generated from the repo's [README.md](https://github.com/paramt/notes/blob/main/README.md)  
 # How a note becomes a page
 
-The site repo, [paramt/paramt.github.io](https://github.com/paramt/paramt.github.io), does the actual building. Its `scripts/sync-notes.js` copies everything from this repo into `src/data/notes/` there, automatically, before every `npm run dev` and `npm run build` That copy is disposable and gitignored on the site side — this vault is the only place to actually edit a note.
-
-Only what's committed **and pushed** here ever reaches the live site. Uncommitted drafts sync into local/dev builds same as everything else, but CI only ever checks out pushed commits, so drafts stay private until you commit and push them.
+The site repo, [paramt/paramt.github.io](https://github.com/paramt/paramt.github.io), does the actual building. Its `scripts/sync-notes.js` copies everything from this repo into `src/data/notes/` there
 
 # CI: pushing here redeploys the site
 
@@ -31,4 +29,4 @@ tags:
 ---
 ```
 
-which is used to fill in metadata on [param.me/notes](https://www.param.me/notes)
+which is used to fill in metadata on [param.me/notes](https://www.param.me/notes) during the build
