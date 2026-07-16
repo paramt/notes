@@ -6,7 +6,7 @@ date: 2026-07-15
 ---
 This repo [(paramt/notes)](https://github.com/paramt/notes) is the Obsidian vault -- the source of truth for [param.me/notes](https://www.param.me/notes). 
 
-[This note](https://www.param.me/notes/README/) is itself generated from the repo's [README.md](https://github.com/paramt/notes/blob/main/README.md)  
+[This note](https://www.param.me/notes/readme/) is itself generated from the repo's [readme.md](https://github.com/paramt/notes/blob/main/readme.md)  
 # How a note becomes a page
 
 The site repo, [paramt/paramt.github.io](https://github.com/paramt/paramt.github.io), does the actual building. Its `scripts/sync-notes.js` copies everything from this repo into `src/data/notes/` there
