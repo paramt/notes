@@ -13,7 +13,7 @@ The site repo, [paramt/paramt.github.io](https://github.com/paramt/paramt.github
 
 # CI: pushing here redeploys the site
 
-Pushing to `main` in this repo triggers `.github/workflows/notify-site.yml`, which sends a `repository_dispatch` (`notes-updated`) to [paramt/paramt.github.io](https://github.com/paramt/paramt.github.io). That fires `.github/workflows/deploy.yml` over there, which checks out both repos as siblings, runs the sync + full build, and deploys to GitHub Pages — same as pushing to the site repo directly.
+Pushing to `main` in this repo triggers `.github/workflows/notify-site.yml`, which sends a `repository_dispatch` event to [paramt/paramt.github.io](https://github.com/paramt/paramt.github.io). That fires `.github/workflows/deploy.yml` over there, which checks out both repos as siblings, runs the sync + full build, and deploys to GitHub Pages — same as pushing to the site repo directly.
 
 # Frontmatter
 
