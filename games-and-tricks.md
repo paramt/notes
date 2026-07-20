@@ -5,6 +5,7 @@ description:
 unlisted: false
 tags:
   - reference
+  - poker
 ---
 # magic tricks
 ## red black separator
@@ -67,7 +68,10 @@ no jokers, first to reach 5 points wins. when drawing, instead of taking the top
 
 same as variant A, except instead of playing exactly 1 of 3 cards, players can play 1-3
 
+## variant C
+multiplayer
 
+I played this with 3 players, first to 5 points, which seemed balanced. 
 ## 3 way best hand
 
 - todo
@@ -116,3 +120,15 @@ if you have a card with the same rank as anything on the magnet board, you have 
 pot is split between a regular high and the lowest sum of cards (A=1, monkey=10)
 ## 3 cards 
 use 0-3 hole cards, changes the game dynamics - the nuts are always quads, even when board isn't paired
+
+---
+
+# GTO games
+
+## lowest unique number
+everyone puts in $10 (say there's ~100 players)
+
+everyone anonymously submits a number, whoever says the lowest unique number wins the whole prize pool
+
+## closest number
+one person selects a number from 0-100. everyone else tries to guess the number. the person with the closest guess wins the amount that is the absolute difference between their guess and the actual number
