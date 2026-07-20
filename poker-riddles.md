@@ -4,6 +4,7 @@ date: 2026-07-11
 description:
 unlisted: false
 tags:
+  - poker
 ---
 # Definitions 
 **"The nuts"**: the best possible hand in any given scenario. Preflop, the nuts are AA. On a board with 865 rainbow, 97 are the nuts. 
