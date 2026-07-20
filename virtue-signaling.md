@@ -4,6 +4,7 @@ date: 2026-07-05
 description:
 unlisted: false
 tags:
+  - reflection
 ---
 Just today I was at the Mountain View Farmer's Market and sat down in a small crowd to listen to some live music. I sat behind an elderly white man who was wearing a tshirt that said "Immigrants Welcome" 
 

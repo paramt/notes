@@ -4,6 +4,7 @@ date: 2026-05-23
 description:
 unlisted: false
 tags:
+  - reflection
 ---
 I recently switched my default medium of doomscrolling from Reddit to Twitter, and there's been a surprisingly big change in what I see as well as how I think. 
 

@@ -4,6 +4,7 @@ date: 2026-07-10
 description:
 unlisted: false
 tags:
+  - reflection
   - poker
 ---
 recently I heard this poker analogy:
