@@ -4,6 +4,7 @@ date: 2026-06-18
 description:
 unlisted: true
 tags:
+  - poker
 ---
 AK = ack 
 
@@ -25,4 +26,7 @@ K4 = Knicks in 4
 
 4A = Face card
 
+K4 = Core Power
+
+---
 Honourable mentions: KJo, J2, A3
