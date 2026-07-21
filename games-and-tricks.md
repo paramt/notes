@@ -48,7 +48,7 @@ viewer gets to pick which number card it is!
 - instead of calling a hand, a player may choose to challenge the previous player's hand. in this case, everyone flips over their cards and we see if the claimed hand can be made. jokers can be used to help create the hand
 - loser gains a chip, dealer is passed to the loser, and the next round begins
 ## poker solitaire / renjie poker
-[param.me/poker](https://www.param.me/poker)
+[param.me/poker-solitaire](https://www.param.me/poker-solitaire)
 - single player game using regular 52 card deck 
 - player asks dealer for a subset of the deck
 - dealer draws a card from the top of the deck, if the card is in the subset it's added to the player's hand, otherwise it's added to the dealer's hand

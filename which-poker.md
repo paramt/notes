@@ -8,7 +8,7 @@ tags:
 ---
 This page -> [go.param.me/whichpoker](https://go.param.me/whichpoker) [param.me/notes/which-poker](https://www.param.me/notes/which-poker)
 
-Poker solitaire -> [param.me/poker](https://www.param.me/poker)
+Poker solitaire -> [param.me/poker-solitaire](https://www.param.me/poker-solitaire)
 
 Poker analytics -> [param.me/poker-analytics](https://param.me/poker-analytics)
 
