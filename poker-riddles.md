@@ -47,3 +47,5 @@ Using only this information, identify the board, Adam’s hole cards, and Bob’
 
 Credit to [u/Banyah](https://www.reddit.com/r/poker/comments/bzg3s1/holdem_brainteaser/) 
 
+# Puzzle 4
+imagine board comes xxx and you have an x in your hand in pineapple. is it ever optimal to fold the x
