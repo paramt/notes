@@ -22,11 +22,11 @@ Usually there's consensus on the first 3: New York City, LA, Chicago. The 4th is
 
 The metric I usually bias most towards is cultural relevance / impact. It's hard for me to accurately gauge the relevance and impact of San Francisco. Of course, it has a major impact for myself and most people I surround myself with (when I'm not in the Bay Area), but how can I factor that out? Am I overcorrecting by not including SF in the top 4? 
 
-At some point someone mentioned Paris should be in the list, because of how it's the fashion capital of the world. And even if I didn't care, it has an impact on many people. That led me thinking, San Francisco should squarely be placed in the top 4. The current disruptors of the world, Anthropic and OpenAI, aren't just located in SF, but are based strongly on SF culture. Sam Altman used to be President of YC, which is a huge advocate of SF and the SF tech culture. Before the AI boom, every major social media company and every hyperscaler was born out of the same tech culture centered in SF. Even before that, the semiconductor revolution. And unlike the fashion coming out of Paris, no one can ignore these. 
+At some point someone mentioned Paris should be in the list, because of how it's the fashion capital of the world. And even if I didn't care, it has an impact on many people. That led me to thinking, San Francisco should squarely be placed in the top 4. The current disruptors of the world, Anthropic and OpenAI, aren't just located in SF, but are based strongly on SF culture. Sam Altman used to be President of YC, which is a huge advocate of SF and the SF tech culture. Before the AI boom, most major social media company was born out of the same tech culture centered in SF. Even before that, the semiconductor revolution. And unlike the fashion coming out of Paris, no one can ignore these. 
 
 ---
 
-The next question is, "what are the big 4 cities in the world"
+The next question is, "what are the big 4 cities of the world"
 
 Some candidates I've heard
 - NYC
