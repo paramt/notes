@@ -5,12 +5,12 @@ description:
 unlisted: false
 tags:
 ---
-My personal site has [evolved a lot](https://www.param.me/notes/archive) over the years. This is the first version where I used any LLMs at all. Not only that, but I didn't really read the code at all. Some observations
+My personal site has [evolved a lot](https://www.param.me/notes/archive) over the years. This is the first version where I used LLMs. Not only that, but I didn't read the code at all. Some observations
 
-With "vibecoding" I've noticed it's hard to lose intentionality in design. There are projects I've worked on since (like [param.me/poker-analytics](https://www.param.me/poker-analytics/)) where I give it a high level prompt, and an LLM generates a proposed design. There are many small decisions in between that are glossed over,  and even if I explicitly approve them, I never had to think through them from first principles. 
+It's easy to lose intentionality in design when "vibecoding". There are projects I've worked on since (like [param.me/poker-analytics](https://www.param.me/poker-analytics/)) where I give it a high level prompt, and an LLM generates a proposed design. There are many small decisions in between that are glossed over,  and even if I explicitly approve them, I never had to think through them from first principles. 
 
 This site was not built like that. I was tremendously intentional with every part of the design, even more so than previous iterations where I was forced to code it myself. I found that vibecoding gave me the power to: 
-1. **See a vision through.** I didn't have to compromise on a design I wanted because it was too hard or too time consuming. I didn't realize just how often I used to compromise on my original vision during the implementation until I was given the gift of an LLM. 
+1. **See a vision through.** I didn't have to compromise on a design I wanted because it was too hard or too time consuming to fully realize. I didn't realize just how often I used to compromise on my original vision during the implementation until I was given the gift of an LLM. 
 2. **Rapidly prototype different designs.** To really see how a particular design would feel, I previously would have to spend effort building it out. At that point, I would've sunk enough time into it that I would have grown attached to it. Or even if I wasn't, pivoting was costly enough that as long as I was sufficiently satisfied, I would stick to it. Now with rapid prototypes, I can be detached and find the perfect design I want 
 
 Some examples of being intentional with the design:
