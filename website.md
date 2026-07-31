@@ -1,11 +1,11 @@
 ---
-title: How I built this website
+title: How I built my personal site
 date: 2026-07-30
 description:
 unlisted: false
 tags:
 ---
-My personal site has [evolved a lot](https://www.param.me/notes/archive) over the years. This is the first version where I used LLMs. Not only that, but I didn't read the code at all. Some observations
+My personal website has [evolved a lot](https://www.param.me/notes/archive) over the years. This is the first version where I used LLMs. Not only that, but I didn't read the code at all. Some observations
 
 It's easy to lose intentionality in design when "vibecoding". There are projects I've worked on since (like [param.me/poker-analytics](https://www.param.me/poker-analytics/)) where I give it a high level prompt, and an LLM generates a proposed design. There are many small decisions in between that are glossed over,  and even if I explicitly approve them, I never had to think through them from first principles. 
 
