@@ -5,6 +5,7 @@ description: My final review sheet, adapted to be useful to look back at in a fe
 unlisted: false
 tags:
   - reference
+rich: true
 ---
 Big ideas of the course: scaling horizontally, dealing with failures
 
