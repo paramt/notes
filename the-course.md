@@ -164,6 +164,42 @@ slowplaying
 - slowplaying does not include checking a hand that has less than 3 streets of value, that's fine
 
 
+- don't protect your hands 
+	- value hands want to be called, bluffs want to generate folds
+	- don't bet hands with little value hard like QT on Q97 to "protect it"
+		- if you bet hard you've turned this hand into a bluff
+
+### Bet sizing
+- in general, big bets get folds and small bets get called. but people overestimate this effect
+- typical players have a threshold of hand strength over which they call no matter what, and a threshold of hand strength under which they fold no matter what 
+	- e.g. with trips on anything that's not 4-to-a-flush or 4-to-a-straight board - a particular player might call any bet
+	- with king high on the river a particular player might fold to any bet 
+- knowing these thresholds for other players is critical - you can never bluff them off a hand stronger than their strong threshold
+- knowing their weak threshold is also useful - you can bluff them off with cheap bluffs (eg 15 into a pot of 100) profitably, because (enough of your opponent's hands fall below their calling threshold)[^6]
+
+use bet sizing to extract maximum value from your good hands 
+
+1. bet big enough with big hands so you can comfortably bet all in by the river. e.g. if you flop a set, goal is to win stacks => flop bet needs to be sizeable, don't slowplay by checking or betting small. you need to give yourself the chance to win stacks
+2. sometimes you can squeeze in an extra street of value if you make your bet sizes smaller. e.g. you can turn TPMK[^7] hands into 3 streets of value by betting smaller. if you use the same strat as 1 (ie size such that you go all in by the river), then hands that call you will more often than not beat you. but with a smaller river size, you can still get called by worse. depends on the opponent
+3. don't bet big with vulnerable hands. you want to invest more money in your stronger hands not your weaker hands, plus you want to take the winning hand to showdown
+4. bet bigger than your opponents do
+5. don't worry about tipping your hand strength with bet sizing (for now, will change with higher stakes)
+
+### Multi-Way Pots and Loose Games
+- if everyone calls light, don't be afraid to bet for value with even TPMK[^7]
+- when you flop top pair, you bet. you keep betting (including river jam) unless someone raises you. when that happens, you fold (skill #2)
+- 1 dimensional strategy, but works well at low stakes
+
+### Final Thoughts 
+> If you flop a hand with showdown value, the goal is to squeeze as much value from the hand as you can, then get it to showdown so you can realize its value. You can estimate a hand’s value by using our streets-of-value method. In your mind, create a plan for the hand. Determine how many times you can bet the hand and expect to be called by worse hands. Think about which turn cards will help you by adding streets of value, and which cards will hurt you and take value away. Think about which types of cards are more likely to fall.
+
+
+re skill 2, on responding to large bets:
+
+> The only time you consider calling is if you can think of a few hands you still beat that they might bet hard. That calling exception certainly comes up. But most of the calls I see at 1-2 involve hands that had no chance to win (unless the bettor was bluffing). You absolutely must learn to fold these hands without fail and without remorse.
+
+
+
 [^1]: **Showdown equity:** chance your hand will win at showdown if rest of the board runs out. This is the percentage often displayed on poker videos
 	
 	**Folding equity:** the chance you get an opponent to fold when you run a successful bluff 
@@ -180,3 +216,7 @@ slowplaying
 [^4]: top pair top kicker
 
 [^5]: a board is dynamic if the best hand is likely to change after the turn and river
+
+[^6]: (my note) example of playing ranges as opposed to particular hands
+
+[^7]: top pair marginal kicker
