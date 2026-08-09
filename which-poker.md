@@ -17,3 +17,4 @@ tags:
 | Why Settling Poker Debts is NP-hard | [param.me/notes/settling-poker-debts-is-np-hard/](https://www.param.me/notes/settling-poker-debts-is-np-hard/) |
 | Poker hand names                    | [param.me/notes/poker-hand-names](https://www.param.me/notes/poker-hand-names)                                 |
 | Poker and luck                      | [param.me/notes/luck](https://www.param.me/notes/luck/)                                                        |
+| *The Course* notes                  | [param.me/notes/the-course](https://www.param.me/notes/the-course)                                             |
