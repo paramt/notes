@@ -120,7 +120,7 @@ in games that are more loose and pots get big preflop, focus on hands that get t
 ## Skill #2: Don't Pay People Off 
 
 (big river bets)[^2] aren't bluffed enough (at low stakes), fold these 
-- e.g. $100 raise into a pot of $100 => you can call 100 to win 200 => you need opponent to be bluffing 33% of the time to profitably call, opponents will not be bluffing with this frequency 
+- e.g. \$100 raise into a pot of \$100 => you can call 100 to win 200 => you need opponent to be bluffing 33% of the time to profitably call, opponents will not be bluffing with this frequency 
 - they could bluff you off sometimes, but you can give it to them because frequency is not high enough
 
 this doesn't apply to small bets or even raises -- opponents can bluff these easily (especially on the flop; people are more willing to bluff when there are more cards to come)

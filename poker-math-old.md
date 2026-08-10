@@ -43,7 +43,7 @@ In both cases, we performed 1 transaction and ended with $n-1$ players with an o
 In total we closed all balances with up to $n-1$ transactions 
 
 ## Optimal?
-Could we do even better? In the case where $|b_1|=|b_2|$, we would be closing two balances at once. We can construct an example where it just takes $\frac{n}{2}$ transactions (e.g. 4 players are down $10 and 4 players are up $10 each).
+Could we do even better? In the case where $|b_1|=|b_2|$, we would be closing two balances at once. We can construct an example where it just takes $\frac{n}{2}$ transactions (e.g. 4 players are down \$10 and 4 players are up \$10 each).
 
 But in general, this may not always be possible: Consider the case where all but one player ended with a net gain. All $n-1$ winning players must be paid, and so in general at least $n-1$ transactions are needed. This is indeed our worst case lower bound, and we achieved it!
 
