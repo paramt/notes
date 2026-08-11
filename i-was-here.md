@@ -7,14 +7,6 @@ tags:
 ---
 I was here. During the start of the singularity. This essay is an account of how my life looks like leading up to this point. I'm treating this like a time capsule. I'm really not sure which parts will be interesting and which will be mundane, so here is my documentation of everything.
 
-# Entertainment
-YouTube has been my primary source of entertainment ever since I had access to a device in middle school. I grew up watching tech reviews, lets plays, and "just chatting" content. These are streamers who record a variety of content: from games to meme reacts to events. I've been particularly fond of Ludwig, Atrioc, Stanz, QTCinderella. I've always looked down on people who have seemingly parasocial relationships with traditional celebrities: taking an interest in relationship gossip or personal news about people who don't know them. But I've realized I'm the same, with these content creators. I remember looking up to Ludwig and QT as a model of how I want my relationship to look like.
-
-Throughout the past couple years there's been a significant rise in short-form content: TikToks and Reels are way more popular. I watch Reels as well, even though I never intend to. 
-
-I hear of AI slop and "gen z brainrot" content becoming more popular 
-
-# Ambition
 Throughout my life, I've been an overachiever. In elementary and middle school, I was the best performer. Back then, I had no extrinsic motivation. It was just the natural thing to do. I tried my best, because what else would I do? 
 
 I started coding in third grade when my dad encouraged both my mom and I to do Khan Academy's "Hour of Code". I went on to program a little game, with the help of my dad who would help debug when things went wrong. 
@@ -40,8 +32,6 @@ Now I'm at my final internship, at Databricks. A year ago, every serious enginee
 At the same time, I have friends in Toronto who don't use LLMs at their software engineering internship. So it does feel like I am living in the future while in the Bay Area. 
 
 I hear a lot about how entry level jobs are being wiped out by AI. Some people (especially on Reddit) will argue that it's not because of AI, but rather the high interest rates. Some of my friends don't seem too impressed with the progress of AI. I think they'll all have a change of tune very soon, just as I did. I myself feel like I was late to the party. 
-
-But I have more recruiter reachouts and a better interview response rate than I've ever had in my life. Of course, my resume improving is a confounding variable here. This is not to discredit those who are saying the job market is brutal. I think it's currently a K-shaped market. Though I'm not sure for how much longer the top part of the K will stay up.
 
 Over the course of the past year, I've had various levels of existential dread. Probably a normal amount--or even less than average--for an aspiring junior software engineer. A common fear is that of being in the "permanent underclass". As jobs that have traditionally enabled upwards mobility disappear, so too will your chance to "make it out". 
 
