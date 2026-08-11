@@ -2,7 +2,7 @@
 title: I was here
 date: 2026-08-02
 description:
-unlisted: false
+unlisted: true
 tags:
 ---
 I was here. During the start of the singularity. This essay is an account of how my life looks like leading up to this point. I'm treating this like a time capsule. I'm really not sure which parts will be interesting and which will be mundane, so here is my documentation of everything.
