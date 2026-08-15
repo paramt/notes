@@ -93,6 +93,12 @@ Call: AQs-A8s, A6s, K9s+, Q9s+, JTs, 98s, 76-65s, J9s-86s, AQo-AJo, KQo
 - QTo+
 - JTo
 
+#### Facing a raise 
+
+TODO
+### Blinds
+
+TODO
 
 ### Summary
 
@@ -103,20 +109,12 @@ Call: AQs-A8s, A6s, K9s+, Q9s+, JTs, 98s, 76-65s, J9s-86s, AQo-AJo, KQo
 5. choose hands that have equity-when-called
 6. defend blinds against steals, not strong raises
 
-essentially, play tight (play less hands, raise more) and avoid unsuited hands
-
-  
-  
-  
+essentially, play tight (play less hands, raise more) and avoid unsuited hands  
 
 ### Multi-Way Pots and Loose Games
 
 in games that are more loose and pots get big preflop, focus on hands that get there faster rather than take time to develop from draws (ie high cards over connectors) 
 - can even add offsuit high cards and remove lower suited connectors
-
-
-
-
 ## Skill #2: Don't Pay People Off 
 
 (big river bets)[^2] aren't bluffed enough (at low stakes), fold these 
@@ -199,6 +197,112 @@ re skill 2, on responding to large bets:
 > The only time you consider calling is if you can think of a few hands you still beat that they might bet hard. That calling exception certainly comes up. But most of the calls I see at 1-2 involve hands that had no chance to win (unless the bettor was bluffing). You absolutely must learn to fold these hands without fail and without remorse.
 
 
+## 1-2 Hand Quizzes
+
+# Part III: Beating 2-5 Games
+
+Part II skills were "playing your cards" skills. Part III skills focus on what opponents have rather than what we have. Mastering these skills should let you play a session or two completely blind, without losing too badly.
+
+## Skill 4: Barreling
+let's say you raise preflop and get called, heads up. on the flop opponent checks, you bet half pot. half the time opponent folds. other half of the time, he calls. on the turn, he checks and you bet half pot. half the time, he folds, other half of the time, he calls. on the river, he checks and you bet half pot. he folds half the time and calls the other half 
+
+regardless of what your cards were, this would be a winning strategy 
+
+how did the opponent misplay this? folds too often and doesn't raise 
+
+a lot of players at 2-5 are at this level: they used to play too many hands, frequently lost money, and adapted by folding more hands (too many hands) 
+
+most people are trusting large bets (including us: skill #2) and folding to them. we exploit this by barreling. this exploits the tendencies people have:
+- they play too many hands preflop (so come into the flop with a wider range, missing most flops)
+- they have a general trust of large bets
+
+### Continuation Betting 
+- cbet should not be about what you're representing, that's mostly irrelevant. rather, it's about what the opponent is holding
+- e.g. we raise preflop with AQs, flop comes K42 rainbow. you don't cbet to "represent" the king, because people will fold not out of fear that the bettor hit a king, rather because they missed the flop 
+- much more important to cbet on a flop like 842 rainbow than a flop like K42 rainbow
+	- even if you can't represent hitting the flop, it's more likely the opponents missed
+	-
+
+### Barrelling Beyond The Flop
+- opponents might call a flop bet with bottom pair or a gutshot, but they'll fold to a turn bet 
+- opponents will put a value to their hand, and if the pot gets larger than the value they assigned to their hand, they'll fold (this can be fuzzy)
+- we need to determine when opponents feel that their hand didn't make the cut
+### Bet The Turn
+
+> Above all, remember this about barreling: when they check to you on the turn, and you won’t be able to win a showdown without improvement, bet.
+
+if you can't figure out when to bet, betting all your weak hands is better than betting none of them
+
+bet large on the turn when it checks to you
+- opponents play too many hands preflop, and make too many speculative calls on the flop 
+- => they have way more hands by the turn than they should
+- do this even if they have betting lead on the flop, as long as they check to you on the turn
+
+- this is why you don't limp preflop
+	- limping will make smaller pots, and smaller pots are less predictable
+
+### Multiway Pots and Loose Games 
+- don't barrel into 4 opponents with nothing, assume you'll get callers
+- it's fine if you have a draw (even backdoors) as long as SPR[^8] is high, because the cbet  
+	- builds the pot
+	- keeps the nuts in your range, so you can steal the pot by representing it later (which is why high SPR matters) 
+	- gives the opponent a chance to raise if they flopped big (so you can get out of the way)
+		- opponents are less likely to slowplay in a multiway pot with draws out there
+
+### Final Thoughts
+- Skill 4 doesn't explain which hands to barrel with (that's Skill 5), but rather just says to barrel 
+- test to determine if barrelling will be profitable in a game:
+	- watch 20 hands. if more than half the hands play multiway, but <= 4 go to showdown (with someone having had to call a significant bet along the way), barrelling will be profitable
+
+## Skill 5: Evaluating Board Texture 
+- preflop is always the same, but once flop comes, hand rankings change 
+
+### Static vs Dynamic Boards
+Static: hand values (particularly at the top) are are relatively unlikely to change 
+
+if you're ahead on the flop, you're likely ahead by the river
+
+e.g. K73 rainbow 
+
+Dynamic flop: hand values (particularly at the top) are likely to significantly change 
+
+e.g. 974, two clubs
+
+factors that make a board dynamic: 
+1. low highest card
+	1. overcards completely upset the ordering of the hands
+2. flush and straight draws
+
+importance of 2 is a bit overstated: an overcard changes the reordering of hands more drastically (since it's much easier to hit a pair than a flush)
+
+example: 974 two clubs
+
+we have A9
+
+if a J comes, there's a total of 135 hands that hold a J and leapfrog us 
+if a club comes, there's only 45 hands that have 2 clubs and leapfrog us
+
+
+Barrelling 
+- on a static board, you need fewer barrels to get the job done 
+	- ie if your bluffs haven't worked on a static board after a flop and turn bet, you should probably give up 
+	- but on a dynamic board, you might want to bluff the river as well, since your opponent could have missed draws or that your river bet means you outdrew them 
+
+### Dry vs Wet Boards
+Dry: few available draws 
+
+K72 rainbow is dry, static
+
+842 rainbow is dry, but dynamic
+
+
+
+# My Thoughts 
+a lot of the 1-2 skills too basic - I don't have much experience with live casino players, but this play would not hold up even in my 0.10/0.20 home games. here are some exploits 
+- facing an open, most of the EP range is flatting. presumably because the risk of being squeezed is low in a low stakes game? I don't think I could flat in my 8 handed games as EP
+- opponents definitely bluff way more often, always folding to a large river bet is too easily exploitable
+
+
 
 [^1]: **Showdown equity:** chance your hand will win at showdown if rest of the board runs out. This is the percentage often displayed on poker videos
 	
@@ -220,3 +324,5 @@ re skill 2, on responding to large bets:
 [^6]: (my note) example of playing ranges as opposed to particular hands
 
 [^7]: top pair marginal kicker
+
+[^8]: stack-to-pot ratio
