@@ -6,7 +6,6 @@ unlisted: true
 tags:
 rich: false
 ---
-regular advice
 - dont raise medium, either go big (to target hands that are sticky in drawing spots) or small (to keep in worse hands that otherwise cant continue)
 
 - range based play 
@@ -20,14 +19,18 @@ regular advice
 			- you can call and play for both the straight completing and flush completing: if you're confident opponent is on an overpair, you win when the straight completes, or when the flush completes by bluffing large on the river
 
 - asymmetry in pot odds 
-	- if opponent bets 100 into a pot of 100, you need to call 100 to win 200, ie you need to win 33% of the time to be profitable
-	- if you bluff with a bet of 100 into a pot of 100, you need opponent to fold 50% of the time to be profitable 
+	- if opponent bets 50 into a pot of 100, you need to call 50 to win 150, ie you need to win 25% of the time to be profitable
+	- but if you bluff with a bet of 50 into a pot of 100, you need opponent to fold 33% of the time to be profitable 
 
+bet sizing and position 
+- raise larger when OOP (you want to disincentivize callers when playing OOP)
+- when you're all in in, there's no more action => the position advantage is gone
+	- this can be generalized as: the lower the SPR, the less position advantage exists
+	- larger pots decrease SPR, therefore taking away position advantage
 
 other tips
 - in double board PLO, always play for the win, not a scoop
 	- as an example, if you're playing in a 3 handed pot and put x into the pot, you go from winning +0.5x in a chop to winning +2x on a scoop, a four fold increase
-
 
 
 target a particular hand -- bet to fold better hands or to keep worse hands in 
