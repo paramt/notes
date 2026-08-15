@@ -1,5 +1,5 @@
 ---
-title:
+title: Poker notes
 date: 2026-07-29
 description:
 unlisted: true
@@ -14,6 +14,15 @@ regular advice
 		- this will help you continue betting value when a scare card comes. as long as they have more hands in their range that you can target (ie they would call with) that you also beat, it's fine if they have some hands in their range that you don't beat
 		- this will also help you figure out when certain cards aren't actually scare cards. for example, just analyzing on the river might lead you to believe there's 3 to a straight. but if you think in ranges, you can sometimes rule out say a straight that would require holding onto a gutshot on the turn for which you bet large on
 	- this probably doesn't work in PLO -- many times players will stumble into hands they themselves didn't know they had draws for 
+	- another example of range-based play: 
+		- you're on a straight draw on a board that also has a flush draw 
+			- you put your opponent on a high pocket pair (e.g. big preflop raise, large flop and turn bet)
+			- you can call and play for both the straight completing and flush completing: if you're confident opponent is on an overpair, you win when the straight completes, or when the flush completes by bluffing large on the river
+
+- asymmetry in pot odds 
+	- if opponent bets 100 into a pot of 100, you need to call 100 to win 200, ie you need to win 33% of the time to be profitable
+	- if you bluff with a bet of 100 into a pot of 100, you need opponent to fold 50% of the time to be profitable 
+
 
 other tips
 - in double board PLO, always play for the win, not a scoop
