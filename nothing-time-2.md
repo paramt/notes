@@ -4,6 +4,7 @@ date: 2026-07-28
 description:
 unlisted: false
 tags:
+  - reflection
 ---
 I was reading back [a note](https://www.param.me/notes/nothing-time/) I wrote in 2024
 

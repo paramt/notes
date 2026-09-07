@@ -4,6 +4,7 @@ date: 2026-08-27
 description:
 unlisted: false
 tags:
+  - reflection
 rich: false
 ---
 There's been a new round of U.S. immigration drama on Twitter, this time centered around YC. I'm currently dealing with immigration to attend the upcoming YC batch as a founder, so the online discourse feels very close to home. 
