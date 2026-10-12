@@ -2,7 +2,7 @@
 title: I was here
 date: 2026-08-02
 description:
-unlisted: true
+unlisted: false
 tags:
 ---
 I was here. During the start of the singularity. This essay is an account of how my life looks like leading up to this point. I'm treating this like a time capsule. I'm really not sure which parts will be interesting and which will be mundane, so here is my documentation of everything.
@@ -23,11 +23,11 @@ But I progressed through high school, with the primary focus on getting into a g
 
 I went to Waterloo and I found this same group of hyperoptimizers end up in CS Careers Dev, a Discord server for students trying to land an internship. From my experience, many of the smartest and most ambitious people are like this. Barring maybe the top 0.1% who will end up wherever they want regardless, the top 1% of ambitious people I was around were usually like this.
 
-Waterloo's co-op program had my friends and I do 6 internships. This program made it very easy to compare myself with others and see where I stacked up. I was content with my first and second internship, because each one felt like "a step up" from the last. Then my third internship didn't feel like like a step up, and I was disappointed. All throughout these 3 internships, I knew I hadn't yet achieved my goal of working in Cali or at "Big Tech".
+Waterloo's co-op program had everyone do 6 internships. This program made it very easy to compare myself with others and see where I stacked up. I was content with my first and second internship, because each one felt like "a step up" from the last. Then my third internship didn't feel like like a step up, and I was disappointed. All throughout these 3 internships, I knew I hadn't yet achieved my goal of working in Cali or at "Big Tech".
 
 Then for my fourth internship, I went to Glean in Palo Alto. I finally felt content. So much so, that for a brief moment I had lost the hunger to keep applying. 
 
-Now I'm at my final internship, at Databricks. A year ago, every serious engineer scoffed at the thought of not working in an IDE. When I started at Databricks, the primary interface for devs was a terminal multiplexer, not an IDE. Today, I hear about a new longstanding unsolved conjecture being solved. This really feels like the beginning of the singularity. 
+Now I'm at my final internship, at Databricks. A year ago, every serious engineer scoffed at the thought of not working in an IDE. When I started at Databricks, the primary interface for devs was a terminal multiplexer, not an IDE. Today, I hear about a new longstanding unsolved conjecture being solved every week. This really feels like the beginning of the singularity.
 
 At the same time, I have friends in Toronto who don't use LLMs at their software engineering internship. So it does feel like I am living in the future while in the Bay Area. 
 
@@ -39,5 +39,5 @@ Another prediction I've heard, though not common, [is that this will bring upon 
 
 I think this impending monumental acceleration brings dread in many people (including me) because of the lack of agency they have in it. It used to be the case that you could start a college degree and plan for a future career. But what can you do if you have no idea what the world will look like in 4 years? 
 
-For the lack of agency I have in this, I find solace in the fact that it's brought upon by my own people. It's not some foreign state plotting against my people. It's not the elite class plotting against my people. It's upper-middle class tech workers from SF. Maybe it's arrogant of me to lump myself with the people creating history. But I don't think like this because of vanity, rather reassurance. I can relate with the people who are at the frontier. I understand their desire to work on interesting, hard problems, along with the selfish desire to optimize for their own outcome. 
+For the lack of agency I have in this, I find solace in the fact that it's brought upon by my own people. It's not some foreign state plotting against my people. It's not the elite class plotting against my people. It's upper-middle class tech workers from SF. Maybe it's arrogant of me to lump myself with the people creating history. But I don't think like this because of vanity, rather reassurance. I can relate with the people who are at the frontier. I understand and relate with their desire to work on interesting, hard problems, along with the selfish desire to optimize for their own outcome.
 
