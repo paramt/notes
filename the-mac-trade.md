@@ -28,7 +28,9 @@ The price instantly jumped up from $9.5k to $19.5k overnight. It peaked at 25k a
 
 So if memory prices continue their run-up, we might see a repeat of this. The resale value stays bounded by the retail price until Apple either hikes the price or pulls it altogether. Will the run-up happen? Who knows, but at least you won't lose money[^2]
 
-There's a lot of nuance here I didn't capture (nor fully explore myself):
+Also important to note that while the value of the Mac did more than double, memory prices 10x'd in that same time
+
+There's more nuance here I didn't capture (nor fully explore myself):
 - resale discount (condition, eBay fees, taxes)
 - liquidity in the resale market
 - DRAM spot price vs contract price
