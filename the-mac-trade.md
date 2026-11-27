@@ -22,7 +22,7 @@ But in March 2026, memory prices got way too high and Apple was forced to pull t
 ```widget mac-studio-resale
 ```
 
-The price instantly jumped up from ~9.5k to $19.5k overnight. It peaked at 21k a couple months later until Apple announced a 512GB configuration for their new M5 Ultra Mac Studio, this time at a much higher price. 
+The price instantly jumped up from $9.5k to $19.5k overnight. It peaked at 25k a couple months later until Apple reintroduced the 512GB configuration with their new M5 Ultra Mac Studio, but this time at a much higher price. 
 
 So if memory prices continue their run-up, we might see a repeat of this. The resale value stays bounded by the retail price until Apple either hikes the price or pulls it altogether. Will the run-up happen? Who knows, but at least you won't lose money[^1]
 
