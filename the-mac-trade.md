@@ -37,6 +37,6 @@ There's more nuance here I didn't capture (nor fully explore myself):
 - Apple policy (how many times can you cancel? is the price truly locked in? will it always take 3 months from order to delivery?)
 
 
-[^1]: Sources: [eBay price history](https://www.ebay.com/sh/research?marketplace=EBAY-US&keywords=mac+studio+m3+ultra+512gb+1tb&dayRange=730&endDate=1795593600000&startDate=1732521600000&excludedListings=198337521903&excludedListings=298305896692&excludedListings=318130004206&excludedListings=389835681400&excludedListings=960037766129&offset=0&limit=50&tabName=SOLD&tz=America%2FLos_Angeles), [DRAM spot price history](https://www.dramexchange.com/) (via Internet Archive)
+[^1]: Sources: [eBay price history](https://www.ebay.com/sh/research?marketplace=EBAY-US&keywords=mac+studio+m3+ultra+512gb+1tb&dayRange=730&endDate=1795593600000&startDate=1732521600000&excludedListings=198337521903&excludedListings=298305896692&excludedListings=318130004206&excludedListings=389835681400&excludedListings=960037766129&offset=0&limit=50&tabName=SOLD&tz=America%2FLos_Angeles), [DRAM spot price](https://www.dramexchange.com/) (historical data via Internet Archive)
 
 [^2]: This whole thought experiment started because I wanted to buy it for running local inference while convincing myself that it's "a good investment" 
