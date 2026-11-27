@@ -10,9 +10,9 @@ const parse = utcParse('%Y-%m-%d');
 const DAY = 864e5;
 const PULLED = +parse('2026-03-04');
 const EVENTS = [
-  { d: '2025-03-12', n: 'M3 Ultra 512GB ships', s: 'M3 Ultra 512GB ships', row: 0 },
-  { d: '2026-03-04', n: '512GB option pulled', s: '512GB pulled', row: 0 },
-  { d: '2026-08-25', n: 'M5 Ultra 512GB announced', s: 'M5 Ultra 512GB announced', row: 1 },
+  { d: '2025-03-12', n: 'M3 Ultra 512GB ships', s: 'M3 ships', row: 0, smallRow: 0 },
+  { d: '2026-03-04', n: '512GB option pulled', s: '512GB pulled', row: 0, smallRow: 1 },
+  { d: '2026-08-25', n: 'M5 Ultra 512GB announced', s: 'M5 announced', row: 1, smallRow: 2 },
 ];
 const usd = v => '$' + format(',.0f')(v);
 const fmtD = utcFormat('%b %-d, %Y');
@@ -33,6 +33,13 @@ const POINTS = (() => {
 })();
 const DRAM_POINTS = DRAM.map(d => ({ t: parse(d.d), v: Math.round(d.c * 256) }));
 
+// Place a label starting at x; if it would run past the right edge, right-align
+// it to the edge instead so it never clips or causes horizontal scroll.
+function fit(text, x, W) {
+  text.attr('x', x).attr('text-anchor', 'start');
+  if (x + text.node().getComputedTextLength() > W - 2) text.attr('x', W - 2).attr('text-anchor', 'end');
+}
+
 function draw(el) {
   el.replaceChildren();
   const css = getComputedStyle(el);
@@ -40,10 +47,11 @@ function draw(el) {
   const W = el.clientWidth, H = el.clientHeight, small = W < 520;
   const m = { top: 30, right: 12, bottom: 28, left: 46 };
   const x0 = parse('2025-02-01'), x1 = parse('2026-12-15'), m5d = parse('2026-10-28');
-  const m5Label = small ? 'M5 512GB orders open' : 'M5 Ultra 512GB orders open';
+  const m5Label = small ? 'M5 orders open' : 'M5 Ultra 512GB orders open';
 
-  // Widen the right margin so the M5 reference label never clips.
-  {
+  // Wide: widen the right margin so the M5 reference label fits past the plot.
+  // Small: keep the plot wide and right-align the label instead (see fit()).
+  if (!small) {
     const probe = select(el).append('svg').append('text').text(m5Label);
     const lw = probe.node().getComputedTextLength();
     probe.node().parentNode.remove();
@@ -52,7 +60,8 @@ function draw(el) {
   }
 
   const x = scaleUtc([x0, x1], [m.left, W - m.right]);
-  const y = scaleLinear([0, 34000], [H - m.bottom, m.top]);
+  // Extra headroom on small screens for the stacked event labels.
+  const y = scaleLinear([0, small ? 40000 : 34000], [H - m.bottom, m.top]);
   const yt = range(0, 30001, 5000);
   const svg = select(el).append('svg').attr('aria-hidden', 'true');
 
@@ -66,15 +75,15 @@ function draw(el) {
   svg.append('line').attr('x1', m.left).attr('x2', W - m.right).attr('y1', y(0)).attr('y2', y(0)).attr('stroke', col('--mc-axis'));
 
   for (const e of EVENTS) {
-    const px = x(parse(e.d)), ty = m.top + 4 + e.row * 20;
+    const px = x(parse(e.d)), ty = m.top + 4 + (small ? e.smallRow : e.row) * 18;
     svg.append('line').attr('x1', px).attr('x2', px).attr('y1', ty - 12).attr('y2', y(0))
       .attr('stroke', col('--mc-axis')).attr('stroke-dasharray', '2 3');
-    svg.append('text').attr('class', 'mac-chart-halo').attr('x', px + 5).attr('y', ty)
-      .style('fill', col('--mc-fg')).text(small ? e.s : e.n);
+    fit(svg.append('text').attr('class', 'mac-chart-halo').attr('y', ty)
+      .style('fill', col('--mc-fg')).text(small ? e.s : e.n), px + 5, W);
   }
 
   const refs = [
-    { a: parse('2025-03-12'), b: PULLED, v: 9499, l: 'M3 Ultra 512GB orders open: $9,499' },
+    { a: parse('2025-03-12'), b: PULLED, v: 9499, l: small ? 'M3 orders open: $9,499' : 'M3 Ultra 512GB orders open: $9,499' },
     { a: m5d, b: x1, v: 22299, l: m5Label },
   ];
   for (const f of refs) {
@@ -82,7 +91,7 @@ function draw(el) {
       .attr('stroke', col('--mc-ref')).attr('stroke-width', 1.5).attr('stroke-dasharray', '5 4');
   }
   for (const f of refs) {
-    svg.append('text').attr('class', 'mac-chart-halo').attr('x', x(f.a) + 4).attr('y', y(f.v) - 7).text(f.l);
+    fit(svg.append('text').attr('class', 'mac-chart-halo').attr('y', y(f.v) - 7).text(f.l), x(f.a) + 4, W);
   }
 
   const dp = DRAM_POINTS.filter(d => d.t >= x0);
